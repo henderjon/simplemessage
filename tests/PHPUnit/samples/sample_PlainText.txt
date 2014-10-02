@@ -1,0 +1,6 @@
+From: email@address.com
+Subject: this should be plain text
+To: email@address.com
+Content-type: text/plain; charset=utf-8
+
+this is some plain text.

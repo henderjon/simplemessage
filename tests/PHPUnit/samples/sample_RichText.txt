@@ -1,0 +1,17 @@
+From: email@address.com
+Subject: this should be rich text
+To: email@address.com
+Mime-type: 1.0
+Content-type: multipart/alternative; boundary="SHA1-HASH"
+
+--SHA1-HASH
+Content-type: text/plain; charset=utf-8
+Content-disposition: inline
+
+this is some html text.
+--SHA1-HASH
+Content-type: text/html; charset=utf-8
+Content-disposition: inline
+
+this is some <strong>html</strong> text.
+--SHA1-HASH--
